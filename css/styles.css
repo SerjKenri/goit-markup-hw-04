@@ -187,6 +187,7 @@ ul
 }
 .benef-item {
     min-width: 270px;
+
 }
 
 .benefits-titile {
@@ -206,13 +207,13 @@ ul
     line-height: 1.7;
     color: var(--last-text-color);
 }
-.benef-group {
+.benef-svg {
     text-align: center;
     justify-content: center;
-    width: 270px;
-    height: 120px;
     margin-bottom: 30px;
+    padding: 25px 100px;
 }
+
 /* work */
 .work-table {
     display: flex;
