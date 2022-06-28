@@ -146,6 +146,9 @@ ul
         text-align: center;
         padding-top: 200px;
         padding-bottom: 200px;
+        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/background-img.jpg);
+        background-size: cover;
+        background-color: #2f303a;
 }
 .hero-title {
     font-weight: 900;
@@ -266,7 +269,60 @@ font-size: 16px;
 line-height: 1.19;
 text-align: center;
 color: var(--last-text-color);
-margin-bottom: 30px;
+margin-bottom: 16px;
+}
+.team-svg-links {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.team-svg-items + .team-svg-items {
+    margin-left: 10px;
+}
+.team-svg-items {
+    padding: 12px 12px;
+    border-radius: 50%;
+    padding-bottom: 30px;
+}
+.team-links {
+    display: block;
+}
+.team-svg {
+    fill: #757575;
+}
+/* clients */
+.client-section {
+    text-align: center;
+    justify-content: center;
+}
+.clients-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    margin-bottom: 50px;
+
+    color: var(--first-text-color);
+}
+.client-list {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.client-item {
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+.client-item + .client-item {
+    margin-left: 30px;
+}
+.client-links {
+    display: block;
+    padding: 16px 32px;
+    width: 170px;
+    height: 92px;
 }
 /* footer */
 .footer-div {
