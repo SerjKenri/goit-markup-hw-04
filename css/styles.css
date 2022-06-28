@@ -117,6 +117,8 @@ ul
     color: var(--last-text-color);
     text-decoration: none;
     display: block;
+    text-align: center;
+    justify-content: center;
 
 
 }
@@ -128,6 +130,7 @@ ul
 .svg-phone {
     margin-right: 10px;
     fill: currentColor;
+    
 }
 
 .section {
