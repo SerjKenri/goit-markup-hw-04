@@ -116,8 +116,8 @@ ul
     letter-spacing: 0.02em;
     color: var(--last-text-color);
     text-decoration: none;
-    display: flex;
-    text-align: center;
+    display: block;
+
 
 }
 .address:focus,
