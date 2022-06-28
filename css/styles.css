@@ -35,6 +35,7 @@ ul
         padding: 0px;
         margin: 0;
 }
+
 .images {
     display: block;
     min-width: 100%;
@@ -99,11 +100,14 @@ ul
 .address-table {
     display: flex;
     margin-left: auto;
+    justify-content: center;
+    text-align: center;
 }
 .address-table .item + .item {
-    margin-left: 50px;
+    margin-left: 30px;
     
 }
+
 
 .address {
     font-weight: 500;
@@ -112,20 +116,26 @@ ul
     letter-spacing: 0.02em;
     color: var(--last-text-color);
     text-decoration: none;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    display: flex;
+    text-align: center;
+
 }
-
-
 .address:focus,
 .address:hover {
     color: var(--focus-text-color);
+}
+.svg-mail,
+.svg-phone {
+    margin-right: 10px;
+    fill: currentColor;
 }
 
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
 }
+
+
 
 /* Hero-title */
 .hero-section {
@@ -192,6 +202,13 @@ ul
     font-size: 14px;
     line-height: 1.7;
     color: var(--last-text-color);
+}
+.benef-group {
+    text-align: center;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
 }
 /* work */
 .work-table {
