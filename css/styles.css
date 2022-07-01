@@ -154,11 +154,16 @@ height: 1rem;
 .hero-section {
     background: var(--backgound-color);
         text-align: center;
+        
+        margin: 0 auto;
+        max-width: 1600px;
         padding-top: 200px;
         padding-bottom: 200px;
+        
         background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/background-img.jpg);
         background-size: cover;
         background-color: #2f303a;
+
 }
 .hero-title {
     font-weight: 900;
@@ -221,10 +226,14 @@ height: 1rem;
     color: var(--last-text-color);
 }
 .benef-svg {
-    text-align: center;
+    display: flex;
+    align-items: center;
     justify-content: center;
+    
     margin-bottom: 30px;
-    padding: 25px 100px;
+    height: 120px;
+    background-color: var(--background-team-sec);
+    
 }
 
 /* work */
@@ -283,8 +292,9 @@ margin-bottom: 16px;
 }
 .team-svg-links {
     display: flex;
-    text-align: center;
+    align-items: center;
     justify-content: center;
+    margin-bottom: 30px;
 }
 .team-svg-items + .team-svg-items {
     margin-left: 10px;
@@ -293,11 +303,11 @@ margin-bottom: 16px;
     display: flex;
     color: var(--primary-colo);
     text-decoration: none;
-    padding: 0.75rem 0.75rem;
+    width: 44px;
+    height: 44px;
     border-radius: 50%;
-    text-align: center;
+    align-items: center;
     justify-content: center;
-    margin-bottom: 30px;
 
 }
 .team-links:hover,
@@ -326,7 +336,7 @@ margin-bottom: 16px;
 }
 .client-list {
     display: flex;
-    text-align: center;
+    align-items: center;
     justify-content: center;
 }
 .client-item {
@@ -342,12 +352,12 @@ margin-bottom: 16px;
 }
 .client-links {
     display: flex;
-    padding: 16px 32px;
     width: 170px;
     height: 92px;
     color: var(--primary-colo);
     text-align: center;
     justify-content: center;
+    align-items: center;
 
 }
 
@@ -413,9 +423,10 @@ margin-bottom: 16px;
     color: var(--title-text-color);
     
     text-decoration: none;
-    padding: 0.75rem 0.75rem;
+    width: 44px;
+    height: 44px;
     border-radius: 50%;
-    text-align: center;
+    align-items: center;
     justify-content: center;
 }
 .footer-svg-links:hover,
@@ -497,8 +508,8 @@ margin-bottom: 16px;
     box-sizing: border-box;
 }
 
-.portf-table-item:focus,
-.portf-table-item:hover {
+.portfolio-link:focus,
+.portfolio-link:hover {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
@@ -518,6 +529,7 @@ margin-bottom: 16px;
     margin-bottom: 4px;
 }
 .portfolio-link {
+    display: block;
     text-decoration: none;
 }
 .portfolio-text {
